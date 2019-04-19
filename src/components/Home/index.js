@@ -9,7 +9,7 @@ class Home extends Component {
     componentWillMount() {
         try {
             logic.retrieveData()
-                .then(response => this.setState({ results: response }, console.log(response)))
+                .then(response => this.setState({ results: response }))
                 .then(() => this.setState({ resultsCopy: [...this.state.results] }))
                 .catch(({ message }) => console.error(message))
         } catch ({message}) {
