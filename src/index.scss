@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import './components/App/index.scss';
+@import './components/Header/index.scss';
+@import './components/Home/index.scss';
+@import './components/Filter/index.scss';
+@import './components/Results/index.scss';
+@import './components/ImageLoader/index.scss';
+@import './components/Footer/index.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}

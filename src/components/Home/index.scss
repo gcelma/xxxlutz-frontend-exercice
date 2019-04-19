@@ -1,0 +1,18 @@
+main {
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.contentLoader {
+    align-self: center;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: 150px;
+
+    i {
+        font-size: 3.5em;
+        color: rgb(211, 211, 211);
+    }
+}

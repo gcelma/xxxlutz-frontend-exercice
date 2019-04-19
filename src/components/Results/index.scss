@@ -1,0 +1,82 @@
+.results {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 30px 0px;
+
+    .item {
+        width: 300px;
+        border: 0.5px solid  #EEEEEE;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        margin: 10px;
+        background-color: white;
+
+        .info {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            width: 100%;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            font-weight: 700;
+            margin-top: 20px;
+            margin-bottom: 10px;
+
+            .reference {
+                display: flex;
+                flex-flow: column nowrap;
+                align-content: flex-start;
+                margin-left: 10px;
+
+                & p:first-child {
+                    font-weight: 400;
+                    font-size: 0.7em;
+                    margin-bottom: 0px;
+                    margin-top: 0px;
+                }
+
+                & p:last-child {
+                    margin-top: 5px;
+                }
+            }
+
+            .price {
+                display: flex;
+                flex-flow: column nowrap;
+                align-content: flex-end;
+                justify-content: flex-end;
+                margin-right: 10px;
+
+                & p:first-child {
+                    align-self: flex-end;
+                }
+
+                & #priceSale {
+                    color: red;
+                    margin-top: 20px;
+                }
+
+                & #originalPrice {
+                    text-transform: lowercase;
+                    font-weight: 400;
+                    font-size: 0.8em;
+                    text-decoration: line-through;
+                    margin-top: -10px;
+                }
+            }
+        }
+    }
+}
+
+#sale {
+    font-size: 0.65em;
+    font-weight: 600;
+    color: white;
+    background-color: #FF9100;
+    padding: 10px 5px;
+    align-self: flex-start;
+    position: absolute;
+    margin-left: 10px;
+}
