@@ -58,3 +58,9 @@ To check test-coverage:
 ```sh
 npm test-coverage
 ```
+
+## Code Coverage
+
+#### ![Test Coverage](https://img.shields.io/badge/logic%2Flutz--api-100-green.svg)
+#### ![Test Coverage](https://img.shields.io/badge/User%20Interface-80-orange.svg)
+![Test Coverage](./test-coverage.png)
